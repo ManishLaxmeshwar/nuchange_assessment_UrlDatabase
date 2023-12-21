@@ -101,7 +101,7 @@ public class UrlDatabase {
     }
 
     private static String generateShortKey() {
-        // You can implement any logic here to generate a unique short key
+        
         return "key" + System.currentTimeMillis();
     }
 
@@ -111,7 +111,7 @@ public class UrlDatabase {
 
         public UrlInfo(String url) {
             this.url = url;
-            this.count = 1; // Initialize count to 1 when a new URL is stored
+            this.count = 1;
         }
 
         public String getUrl() {
