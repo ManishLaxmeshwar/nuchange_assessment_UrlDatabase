@@ -1,0 +1,22 @@
+# Architecture Documentation
+
+This program is a simple command-line URL database implemented in Java. It uses in-memory data storage and provides commands for storing, retrieving, and counting URLs.
+
+## Components
+
+- 'UrlDatabase': Main class to handle user commands.
+- 'UrlInfo': Inner class representing URL information (URL, count).
+- ...
+
+## Flow
+
+1. User enters commands via the command line.
+2. Commands are processed in the `main` method of the `UrlDatabase` class.
+3. URL information is stored in the `urlMap` using a unique short key.
+4. Using the command command we count the the urls used.
+5.Using the lost command we can see which url is used and how many times in the partiular transaction in the form of json object.
+
+## Usage
+
+- Run the program using: `java UrlDatabase`.
+- Enter commands as described in the README.
